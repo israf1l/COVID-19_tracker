@@ -1,0 +1,288 @@
+.navbar{
+    background-color: #264E86;
+    font-size: 24px;
+}
+.navbar a:hover {
+  background-color: #AFFFFF;
+}
+/*.navbar a.active {
+  background-color: #5E88FC;
+} */
+.navbar a {
+	padding-left: 50px;
+}
+
+body{
+  font-style: Helvetica;
+}
+
+/* World */
+
+.table_data_static{
+  height: auto;
+  width: 150px;
+}
+.table_data_dynamic{
+  height: auto;
+  width: 200px;
+}
+
+#map_td{
+  color: black;
+}
+
+#world_td{
+  height: 500px;
+  width: 1150px;
+}
+#world_map {
+        height: 500px;
+        width: 1150px;
+      }
+.world{
+      	margin-top: 200px;
+      }
+#world_map_table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#world_table{
+    width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.map_header{
+  margin-left: 200px;
+  margin-top: 100px;
+}
+th{
+  font-size: 24px;
+}
+#world_table_input{
+  margin-top: 100px;
+  margin-left: 1550px;
+}
+#world_table{
+  height: 700px;
+  width: 1165px;
+  overflow-y: auto;
+  display: block;
+}
+#selectChartsTable{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 1500px;
+  height: 500px;
+}
+.selectChartsTable th{
+  width: 375px;
+}
+#updateTableChart1TodayButton{
+  width: 80%;
+}
+#updateTableChart1OverallButton{
+  width: 80%;
+}
+#updateTableChart2TodayButton{
+  width: 48%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#updateTableChart2OverallButton{
+  width: 48%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#select_country_chart{
+  width: 100%;
+}
+.select_charts_table1{
+  width: 700px;
+  margin: auto;
+
+}
+.select_charts_table2{
+  width: 700px;
+  margin: auto
+}
+
+#gender_age_charts_table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 1500px;
+  height: 500px;
+}
+.gender_charts{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.age_charts{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#economies_lockdown_charts_table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 1500px;
+  height: 500px;
+
+}
+.countriesClassification_charts{
+  width: 900px;
+  margin: auto;
+}
+.countriesLockdown_charts{
+  width: 900px;
+  margin: auto;
+
+}
+
+
+/* United Kingdom*/
+
+#uk_regions_map_table{
+  width: 1500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+#uk_regions_map{
+  width: 1150px;
+  height: 500px;
+}
+#uk_regions_map_td{
+  color: black;
+}
+.uk_regions_map_table_dynamic{
+  width: 200px;
+}
+.uk_regions_map_table_static{
+  width: 150px;
+}
+#uk_regions_chart_and_table{
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+#regions_chart_td{
+  width: 1200px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ukCountries_charts{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.ukHistorical_charts{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+#male_female_england{
+  width: 1500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+#male_chart_td{
+  width: 750px;
+}
+#female_chart_td{
+  width: 750px;
+}
+.englandMale_charts{
+  width: 700px;
+  margin: auto;
+}
+.englandFemale_charts{
+  width: 700px;
+  margin: auto;
+}
+.englandHistorical_charts{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.walesHistorical_charts{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Scotland */
+
+#scotland_map{
+  height: 500px;
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+#scotland_map_td{
+  height: 500px;
+  width: 1150px;
+  color: black;
+}
+#council_areas_map{
+  height: 500px;
+  width: 1150px;
+
+}
+.scotland_map_table_static{
+  width: 150px;
+}
+.scotland_map_table_dynamic{
+  width: 200px;
+}
+
+#council_areas_table{
+  height: 500px;
+  width: 500px;
+  overflow-y: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#council_areas{
+  margin-top: 100px;
+  width: 1500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#council_areas_table_td{
+  width: 500px;
+}
+#council_areas_td{
+  height: 50px;
+}
+#council_areas_select{
+  width: 100%;
+}
+.scotlandHistorical_charts{
+  margin-top: 100px;
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.select_council_charts{
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
